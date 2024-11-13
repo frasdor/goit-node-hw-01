@@ -3,7 +3,6 @@
     "start": "node index.js",
     "start:dev": "nodemon index.js"
   },
-  "type": "module",
   "devDependencies": {
     "nodemon": "^3.1.7"
   },
@@ -18,6 +17,7 @@
     "brace-expansion": "^1.1.11",
     "braces": "^3.0.3",
     "chokidar": "^3.6.0",
+    "commander": "^12.1.0",
     "concat-map": "^0.0.1",
     "debug": "^4.3.7",
     "fill-range": "^7.1.1",
@@ -39,7 +39,8 @@
     "supports-color": "^5.5.0",
     "to-regex-range": "^5.0.1",
     "touch": "^3.1.1",
-    "undefsafe": "^2.0.5"
+    "undefsafe": "^2.0.5",
+    "uuid": "^11.0.3"
   },
   "keywords": [],
   "author": "Dorota Frasunkiewicz <frasunkiewicz.dorota@gmail.com>",
